@@ -1,0 +1,116 @@
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800');
+
+
+body { 
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;	
+    cursor:default;
+    color: #141414;
+    font-size: 14px;
+    line-height: 24px;
+    background: url("../img/17.jpg");
+    font-weight: 400;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: 0;
+	color: #fff;
+}
+
+.btn {
+    font-weight: 600;
+   font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    border: none;
+    text-transform: capitalize;
+    -webkit-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -webkit-border-radius: 0;
+    border-radius:0;
+}
+.btn:hover{
+    color:#fff;
+}
+.btn-demo {
+    border-radius: 3px;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 14px;
+	border: none;
+	padding: 10px 18px 10px 18px;
+	color: #ffffff;
+	-webkit-transition: none;
+	transition: none;
+     background: #2d353c;
+    margin-top: 10px;
+}
+
+.btn-demo:hover {
+    color: #ffffff;
+	background: #242a30 !important;
+	text-decoration: none;
+}
+.nt-header {
+    padding: 20px 0;
+    background: none;
+margin-bottom: 20px;
+}
+.nt-header h1{
+    color:#fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.nt-header p{
+    margin: 0px;
+    color:#444;
+    font-weight: 400;
+    font-size: 14px;
+}
+.nt-wrap{
+    margin-bottom: 70px;
+}
+.nt-options{
+    background: none;
+    padding: 20px;
+    margin-top: 30px;
+}
+.nt-options img{
+    margin-bottom: 5px;
+}
+.nt-options h3{
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.nt-options p{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-size: 17px;
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.footer{
+  padding: 20px 0;
+}
+.footer p{
+    color:#fff;
+    margin: 0;
+}
+
+.footer a{
+    color:#fff;
+}
