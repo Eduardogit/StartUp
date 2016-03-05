@@ -8,42 +8,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Primes - Landing Page Template</title>
+        <title>GlosbeDev</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
-
         <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
-        <link rel="stylesheet" href="{% static 'assets/font-awesome/css/font-awesome.min.css' %}">
         <link rel="stylesheet" href="{% static 'assets/elegant-icons/css/elegant-icons.min.css' %}">
         <link rel="stylesheet" href="{% static 'assets/ionicons/css/ionicons.min.css' %}">
         <link rel="stylesheet" href="{% static 'assets/owl-carousel/owl.carousel.css' %}">
         <link rel="stylesheet" href="{% static 'assets/owl-carousel/owl.theme.css' %}">
         <link rel="stylesheet" href="{% static 'assets/cubeportfolio/css/cubeportfolio.min.css'%}">
         <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
-
-            <!--Colors-->
-            <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/red.css"> -->
-            <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/orange.css"> -->
-            <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/green.css"> -->
-            <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/lime.css"> -->
-            <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/brown.css"> -->
-            <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/blue.css"> -->
-            <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/yellow.css"> -->
-             <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/purple.css"> -->
-
-<!-- CSS FOR DEMO - NOT INCLUDED IN MAIN FILES -->
-        <link rel="stylesheet" href="{% static 'assets/css/switcher.css' %}">
-<link rel="stylesheet" href="{% static 'assets/css/style1.css' %} " id="colors"> 
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+            <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
     </head>
 
     <body data-spy="scroll" data-offset="80">
@@ -56,19 +40,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#home"><i class="fa fa-star-half-o"></i> PRIMES</a>
+                    <a class="navbar-brand" href="#home"><img src="{% static 'images/rocket.gif'%}" id="rocket" class="pull-left img-responsive img-circle" alt=""></i> @Glosbe Dev</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#features-section">Features</a></li>
-                        <li><a href="#portfolio-section">Portfolio</a></li>
-                        <li><a href="#pricing-section">Pricing</a></li>
-                        <li><a href="#contact-section">Contact</a></li>
+                        <li><a href="#home">Nuestros servicios</a></li>
+                        <li><a href="#features-section">Quienes somos</a></li>
+                        <li><a href="#portfolio-section">Proyectos</a></li>
+                        <li><a href="#pricing-section">Blog</a></li>
+                        <li><a href="#contact-section">Experimentacion</a></li>
                     </ul>
                 </div> 
             </div>
         </div> 
+            
 
         <!-- Top content -->
         <div id="home" class="parallax top-content" data-stellar-background-ratio="0.3">
@@ -76,26 +61,56 @@
                 <div class="container">
                     <div class="row">
 
-			<div class="col-md-10 col-md-offset-1 top-description">
-				
-				<h2 class="text-center">
-				Launch Your <strong>Business</strong> with <strong>Primes</strong></h2>
-				
-					
-		<p>Vivamus commodo felis quis dui pharetra, ac venenatis magna lacinia. Vestibulum quis dignissim nibh. Duis vitae felis orci.</p>
-		                            <div class="top-button">
-                            	<a class="btn btn-top btn-lg" href="#portfolio-section"> Our Portfolio</a>
-                            	<a class="btn btn-top-white btn-lg" href="#features-section"> Learn More</a>
-                            </div>
-	
+						<div class="col-md-10 col-md-offset-1 top-description">
+							
+							<h2 class="text-center">
+							Aplicaciónes <strong>Rapidas</strong>, Innovadoras <strong>, Creativas</strong> y Confiables</h2>
+								<p>Creemos que las aplicaciones hoy en dia deben de ayudarte a realizar tareas en el menor tiempo posible. Nosotros hacemos tus dificultades logisticas Nuestros retos personales</p>
+	                            <div class="top-button">
+                        	<a class="btn btn-top btn-lg" href="#portfolio-section"> Aplicar descuento en alguna aplicación</a>
+                        	<a class="btn btn-top-white btn-lg" href="#features-section"> Nuestros proyectos</a>
+                        </div>
 					</div>
-                            </div>
+				</div>
 	
 					</div>
 
 			
+				<div id="triangle-holder">
+					<div id="triangle-1"></div>
+					<div id="triangle-2"></div>
+				</div>
 				</div>
 			</div>
+
+
+			<style>
+				#triangle-holder{
+					margin-bottom: -25vh;
+					overflow: hidden;
+				}
+				#triangle-1 { 
+					border-bottom: 30vw solid #FFFFFF; 
+					border-right: 100vw solid transparent;
+					float: left;
+					height: 0; 
+					position: inherit;
+					width:  0; 
+				}
+				#triangle-2 { 
+					border-bottom: 30vw solid #FFFFFF; 
+					border-left: 100vw solid transparent; 
+					height: 0; 
+					width:  0; 
+				}
+
+				
+			</style>
+
+
+
+
+
 
         <!-- Features -->
         <div id="features-section" class="features-container">
@@ -109,7 +124,7 @@
 	                	<div class="icon">
 	                		<i class="icon ion-map"></i>
 	                	</div>
-	                    <h4>Lorem Ipsum</h4>
+	                    <h4>Diseño/Rediseño Web</h4>
 	                    <p>
 	                    	Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
 	                    </p>
@@ -118,7 +133,7 @@
 	                	<div class="icon">
 	                		<i class="icon ion-paper-airplane"></i>
 	                	</div>
-	                    <h4>Lorem Ipsum</h4>
+	                    <h4>Aplicaciones Android</h4>
 	                    <p>
 	                    	Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
 	                    </p>
@@ -127,7 +142,7 @@
 	                	<div class="icon">
 	                		<i class="icon ion-clipboard"></i>
 	                	</div>
-	                    <h4>Lorem Ipsum</h4>
+	                    <h4>Capacitaciones</h4>
 	                    <p>
 	                    	Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
 	                    </p>
@@ -136,7 +151,7 @@
 	                	<div class="icon">
 	                		<i class="icon ion-earth"></i>
 	                	</div>
-	                    <h4>Lorem Ipsum</h4>
+	                    <h4>Aplicaciones de escritorio Win/Lin/Mac</h4>
 	                    <p>
 	                    	Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
 	                    </p>
@@ -145,7 +160,7 @@
 	                	<div class="icon">
 	                		<i class="icon ion-flash-off"></i>
 	                	</div>
-	                    <h4>Lorem Ipsum</h4>
+	                    <h4>E-Comerce</h4>
 	                    <p>
 	                    	Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
 	                    </p>
@@ -154,7 +169,7 @@
 	                	<div class="icon">
 	                		<i class="icon ion-levels"></i>
 	                	</div>
-	                    <h4>Lorem Ipsum</h4>
+	                    <h4>Responsive Design/Google Analythics y Mas</h4>
 	                    <p>
 	                    	Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
 	                    </p>
@@ -173,9 +188,9 @@
 
                     	<div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
                         	<div class="product">
-	                    <h3>More Features</h3>
+	                    <h3>Nuestro Team</h3>
 
-                        	<img src="{% static 'assets/img/3.png' %}" alt="">
+                        	<img src="{% static 'images/alien.png' %}" alt="">
 
 	                </div>
 
@@ -190,52 +205,30 @@
 	        <div class="container">
 	            <div class="row">
 
-				<div class="col-lg-6 col-sm-6">
-					<div class="productbox">
-						<div>
+				<div class="col-lg-12 col-sm-12">
+					<div class="productbox text-center col-md-6">
+						<div class="col-md-offset-4">
 	                		<i class="icon ion-erlenmeyer-flask"></i>
 						</div>
-						<h5>Lorem Ipsum</h5>
-Nulla fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero laciniade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. Praesent faucibus nisl sit amet nulla sollicitudin.
+						<h5>Mision</h5>
+						Darle a nuestros usuarios la mejor experiencia en el diseño de la extension de su negocio que es un servicio web
 					</div>
-					<div class="productbox">
-						<div>
+					<div class="productbox text-center col-md-6">
+						<div class="col-md-offset-4">
 	                		<i class="icon ion-android-boat"></i>
 						</div>
-						<h5>Lorem Ipsum</h5>
-Nulla fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero laciniade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. Praesent faucibus nisl sit amet nulla sollicitudin.
+						<h5>Vision</h5>
+						Ser una empresa lider que tenga en mente siempre ser comprometida con la calidad y la creatividad en la elaboracion de cada sitio 
 					</div>
-					<div class="productbox">
-						<div>
+					<div class="productbox  text-center col-xs-12">
+						<div class="col-md-offset-5">
 	                		<i class="icon ion-android-archive"></i>
-						</div>
-						<h5>Lorem Ipsum</h5>
-Nulla fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero laciniade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. Praesent faucibus nisl sit amet nulla sollicitudin.
+	                	</div>
+						<h5>Filosofia</h5>
+						<strong>Crea rapido, aprende cosas nuevas, colabora y ama lo que haces.</strong>
 					</div>
 				</div>
-				<div class="col-lg-6 col-sm-6">
-					<div class="productbox">
-						<div>
-	                		<i class="icon ion-ios-speedometer"></i>
-						</div>
-						<h5>Lorem Ipsum</h5>
-Nulla fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero laciniade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. Praesent faucibus nisl sit amet nulla sollicitudin.
-					</div>
-					<div class="productbox">
-						<div>
-	                		<i class="icon ion-pie-graph"></i>
-						</div>
-						<h5>Lorem Ipsum</h5>
-Nulla fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero laciniade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. Praesent faucibus nisl sit amet nulla sollicitudin.
-					</div>
-					<div class="productbox">
-						<div>
-	                		<i class="icon ion-trophy"></i>
-						</div>
-						<h5>Lorem Ipsum</h5>
-Nulla fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero laciniade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. Praesent faucibus nisl sit amet nulla sollicitudin.
-					</div>
-				</div>
+				
 			</div>
 		</div>
 
@@ -358,8 +351,7 @@ Nulla fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris li
             <div class="inner-callaction">
 	        <div class="container">
             <div class="row">
-    <h4>Quisque aliquam odio eu magna sodales, vel interdum erat suscipit. </br>Mauris ut porttitor tellus.</h4>
-<a href="#" class="btn btn-top-white btn-lg">Call To Action</a>
+<a href="#" class=""><h1>Proyectos</h1></a>
 </div>
 </div>
 </div>
